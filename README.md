@@ -1,4 +1,4 @@
 Comunități
 ==========
 
-Lista cu bisericile AZȘ MR din România.
+Lista cu bisericile AZȘ-MR din România.
