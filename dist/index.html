@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script>
+
+
+            window.addEventListener("load", function () {
+                var geocoder = new google.maps.Geocoder();
+                function codeAddress(address, callback) {
+                    setTimeout(function () {
+                        geocoder.geocode({ 'address': address, componentRestrictions: { country: 'RO' } }, function(results, status) {
+                            if (status == google.maps.GeocoderStatus.OK) {
+                                callback(null, results[0].geometry.location);
+                            }
+                            else {
+                                callback("No location found.");
+                            }
+                        });
+                    }, 1000);
+                }
+
+                document.querySelector("textarea").addEventListener("paste", function () {
+                    var self = this;
+                    setTimeout(function () {
+                        var data = JSON.parse(self.value);
+                        function getSeq(i) {
+                            var c = data.markers[i];
+                            console.log(i);
+                            if (!c) {
+                                self.value = JSON.stringify(data, null, 4);
+                                alert("Done");
+                                return;
+                            }
+                            codeAddress(c._.locality + ", " + c._.address, function (err, res) {
+                                if (err) {
+                                    codeAddress(c._.locality, function (err, res) {
+                                        if (err) {
+                                            console.error(err);
+                                            console.log(c._);
+                                        } else {
+                                            c.position = {
+                                                lat: res.k
+                                              , lng: res.D
+                                            };
+                                            delete c._;
+                                        }
+                                        getSeq(i + 1);
+                                    });
+                                } else {
+                                    c.position = {
+                                        lat: res.k
+                                      , lng: res.D
+                                    };
+                                    delete c._;
+                                    getSeq(i + 1);
+                                }
+                            });
+                        }
+
+                        getSeq(1);
+
+                        console.log(data)
+                    }, 1000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <textarea>
+
+        </textarea>
+        <button>OK</button>
+    </body>
+</html>
