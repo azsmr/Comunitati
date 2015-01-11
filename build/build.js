@@ -33,10 +33,10 @@ CsvToArray({
     var maps = {
         options: {
             center: {
-                lat: 46.85
-              , lng: 8.385665
+                lat: 45.9961577,
+              , lng: 25.6120277
             }
-          , zoom: 8
+          , zoom: 7
           , type: "ROADMAP"
           , clustering: {
                 options: {
