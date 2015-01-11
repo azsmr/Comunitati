@@ -1,0 +1,489 @@
+{
+    "options": {
+        "center": {
+            "lat": 45.9961577,
+            "lng": 25.6120277
+        },
+        "zoom": 7,
+        "type": "ROADMAP",
+        "clustering": {
+            "options": {
+                "maxZoom": 17,
+                "gridSize": 120,
+                "styles": [
+                    {
+                        "height": 48,
+                        "url": "http://resources.jillix.net/res/maps/marker_cluster_blue_circle.png",
+                        "width": 48,
+                        "textColor": "white",
+                        "textSize": 18
+                    }
+                ]
+            }
+        }
+    },
+    "markers": [
+        {
+            "title": "Aiud",
+            "position": {
+                "lat": 46.310673,
+                "lng": 23.722065
+            }
+        },
+        {
+            "title": "Alţâna",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Arad",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Avrig",
+            "position": {
+                "lat": 45.7336366,
+                "lng": 24.381656099999987
+            }
+        },
+        {
+            "title": "Bercu Nou",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Bocicoel",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Boldeşti Grădişte",
+            "position": {
+                "lat": 44.8649,
+                "lng": 26.554399999999987
+            }
+        },
+        {
+            "title": "Bran ",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Breaza",
+            "position": {
+                "lat": 45.1766854,
+                "lng": 25.65765239999996
+            }
+        },
+        {
+            "title": "Braşov",
+            "position": {
+                "lat": 45.658607,
+                "lng": 25.601218000000017
+            }
+        },
+        {
+            "title": "Brad",
+            "position": {
+                "lat": 46.127353,
+                "lng": 22.78672400000005
+            }
+        },
+        {
+            "title": "Bucureşti",
+            "position": {
+                "lat": 44.396665,
+                "lng": 26.10172399999999
+            }
+        },
+        {
+            "title": "Bucov",
+            "position": {
+                "lat": 44.9743,
+                "lng": 26.085000000000036
+            }
+        },
+        {
+            "title": "Budăi",
+            "position": {
+                "lat": 47.2187,
+                "lng": 27.218799999999987
+            }
+        },
+        {
+            "title": "Budeşti",
+            "position": {
+                "lat": 44.23,
+                "lng": 26.450000000000045
+            }
+        },
+        {
+            "title": "Căpâlnaş",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Câmpulung Muscel",
+            "position": {
+                "lat": 45.2703846,
+                "lng": 25.05031550000001
+            }
+        },
+        {
+            "title": "Câmpuri Surduc",
+            "position": {
+                "lat": 45.9394,
+                "lng": 22.55359999999996
+            }
+        },
+        {
+            "title": "Câmpuri",
+            "position": {
+                "lat": 46.0183348,
+                "lng": 26.77990090000003
+            }
+        },
+        {
+            "title": "Cetăţeni",
+            "position": {
+                "lat": 45.1832696,
+                "lng": 25.207448399999976
+            }
+        },
+        {
+            "title": "Cîndeşti",
+            "position": {
+                "lat": 47.9251052,
+                "lng": 26.187813000000006
+            }
+        },
+        {
+            "title": "Ciupercenii Noi",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Cluj-Napoca",
+            "position": {
+                "lat": 46.7814744,
+                "lng": 23.620529300000044
+            }
+        },
+        {
+            "title": "Constanţa",
+            "position": {
+                "lat": 44.174943,
+                "lng": 28.638738999999987
+            }
+        },
+        {
+            "title": "Craiova",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Cristelec",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Curtici",
+            "position": {
+                "lat": 46.34599499999999,
+                "lng": 21.305935999999974
+            }
+        },
+        {
+            "title": "Dej",
+            "position": {
+                "lat": 47.14253,
+                "lng": 23.87071000000003
+            }
+        },
+        {
+            "title": " Deva",
+            "position": {
+                "lat": 45.88240200000001,
+                "lng": 22.897740999999996
+            }
+        },
+        {
+            "title": "Dolheştii Mari",
+            "position": {
+                "lat": 47.45039999999999,
+                "lng": 26.50610000000006
+            }
+        },
+        {
+            "title": "Dracseni",
+            "position": {
+                "lat": 46.8724325,
+                "lng": 27.615901000000008
+            }
+        },
+        {
+            "title": "Făget",
+            "position": {
+                "lat": 45.855109,
+                "lng": 22.17249000000004
+            }
+        },
+        {
+            "title": "Făgăraş",
+            "position": {
+                "lat": 45.8345663,
+                "lng": 24.975461399999972
+            }
+        },
+        {
+            "title": "Floreşti",
+            "position": {
+                "lat": 46.7475,
+                "lng": 23.490833000000066
+            }
+        },
+        {
+            "title": "Havârna",
+            "position": {
+                "lat": 48.066667,
+                "lng": 26.649999999999977
+            }
+        },
+        {
+            "title": "Laslău Mare",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Loloiasca",
+            "position": {
+                "lat": 44.9686,
+                "lng": 26.29230000000007
+            }
+        },
+        {
+            "title": "Lugoj",
+            "position": {
+                "lat": 45.67920789999999,
+                "lng": 21.893129000000044
+            }
+        },
+        {
+            "title": "Lupeni",
+            "position": {
+                "lat": 45.349532,
+                "lng": 23.20286299999998
+            }
+        },
+        {
+            "title": "Matca",
+            "position": {
+                "lat": 45.85,
+                "lng": 27.53333299999997
+            }
+        },
+        {
+            "title": " Mărăşeşti",
+            "position": {
+                "lat": 45.88,
+                "lng": 27.230000000000018
+            }
+        },
+        {
+            "title": "Moisei",
+            "position": {
+                "lat": 47.656111,
+                "lng": 24.538055999999983
+            }
+        },
+        {
+            "title": "Oradea",
+            "position": {
+                "lat": 47.0572631,
+                "lng": 21.944694099999992
+            }
+        },
+        {
+            "title": "Petroşani",
+            "position": {
+                "lat": 45.4142381,
+                "lng": 23.36650080000004
+            }
+        },
+        {
+            "title": "Petrova",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Pleaşa",
+            "position": {
+                "lat": 45.0038,
+                "lng": 26.07140000000004
+            }
+        },
+        {
+            "title": "Ploieşti",
+            "position": {
+                "lat": 44.933554,
+                "lng": 26.006042999999977
+            }
+        },
+        {
+            "title": "Pocivelişte",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Podari",
+            "position": {
+                "lat": 44.25,
+                "lng": 23.78333299999997
+            }
+        },
+        {
+            "title": "Reşiţa",
+            "position": {
+                "lat": 45.2913316,
+                "lng": 21.880461100000048
+            }
+        },
+        {
+            "title": "Rodna Veche",
+            "position": {
+                "lat": 46.9254616,
+                "lng": 26.36925599999995
+            }
+        },
+        {
+            "title": "Satu-Mare",
+            "position": {
+                "lat": 47.7061308,
+                "lng": 22.882402299999967
+            }
+        },
+        {
+            "title": "Săcuien",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Satu-Mare,",
+            "position": {
+                "lat": 47.8464878,
+                "lng": 25.937061900000003
+            }
+        },
+        {
+            "title": "Scorei",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Siret",
+            "position": {
+                "lat": 46.541931,
+                "lng": 24.545123999999987
+            }
+        },
+        {
+            "title": "Sibiu",
+            "position": {
+                "lat": 45.799622,
+                "lng": 24.148179000000027
+            }
+        },
+        {
+            "title": "Slobozia",
+            "position": {
+                "lat": 44.57158,
+                "lng": 27.384230000000002
+            }
+        },
+        {
+            "title": "Slatina",
+            "position": {
+                "lat": 44.43643,
+                "lng": 24.368533999999954
+            }
+        },
+        {
+            "title": "Şeica Mică",
+            "position": {
+                "lat": 45.943161,
+                "lng": 24.966760000000022
+            }
+        },
+        {
+            "title": "Urecheşti",
+            "position": {
+                "lat": 45.6030363,
+                "lng": 27.071887199999992
+            }
+        },
+        {
+            "title": "Văcăreşti",
+            "position": {
+                "lat": 44.8519148,
+                "lng": 25.491290700000036
+            }
+        },
+        {
+            "title": "Vişeu de Jos",
+            "position": {
+                "lat": 47.7148581,
+                "lng": 24.44287959999997
+            }
+        },
+        {
+            "title": "Toaca",
+            "position": {
+                "lat": 46.7986,
+                "lng": 24.96550000000002
+            }
+        },
+        {
+            "title": "Târgu Mureş",
+            "position": {
+                "lat": 46.558739,
+                "lng": 24.54967499999998
+            }
+        },
+        {
+            "title": "Târgovişte",
+            "position": {
+                "lat": 44.925998,
+                "lng": 25.454559000000017
+            }
+        }
+    ]
+}
